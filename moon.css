@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image:url(night.webp) ;
+    background-position: center;
+    background-size: cover;
+}
+.moon{
+    width: 420PX;
+    background:transparent;
+    border: 2px solid rgba(255,255, 255,0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #FFF;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.moon h1{
+    font-size: 36px;
+    text-align: center;
+}
+.moon .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255, 255,0.2);
+    border-radius: 40px;
+    padding: 20px  ;
+    color: #FFF;
+}
+.input-box input::placeholder{
+    color: #FFF;
+    font-size: 18px;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+ .moon .remeber-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin: 15px;
+}
+.remeber-forgot label input{
+    accent-color: #FFF;
+    margin: 3px;
+    cursor: pointer;
+}
+.remeber-forgot  a{
+    text-decoration: none;
+    color: #FFF;
+}
+.moon .butt{
+    width: 100%;
+    border-radius: 6px;
+    padding: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #000;
+
+}
+
+.moon .register-link{
+    font-size: 18px;
+    margin: 5px;
+    text-align: center;
+}
+.register-link a{
+    text-decoration: none;
+    color: #FFF;
+}
+.register-link p a:hover{
+    text-decoration: underline
+}
+.remeber-forgot  a:hover{
+    text-decoration: underline
+}
